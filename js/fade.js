@@ -96,7 +96,12 @@ $(document).ready(function () {
     { "src": "img/ctht9295_2022.61.jpg" },
     { "src": "img/ctht9295_2022.62.jpg" },
     { "src": "img/ctht9295_2022.63.jpg" },
-    { "src": "img/ctht9295_2022.64.jpg" }
+    { "src": "img/ctht9295_2022.64.jpg" },
+    { "src": "img/ctht9295_2022.65.jpg" },
+    { "src": "img/ctht9295_2022.66.jpg" },
+    { "src": "img/ctht9295_2022.67.jpg" },
+    { "src": "img/ctht9295_2022.68.jpg" },
+    { "src": "img/ctht9295_2022.69.jpg" }
     ]; //1536 2048
 
     var gallery = document.getElementById('fade-gallery');
