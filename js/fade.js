@@ -110,7 +110,15 @@ $(document).ready(function () {
     { "src": "img/ctht9295_2022.75.jpg" },
     { "src": "img/ctht9295_2022.76.jpg" },
     { "src": "img/ctht9295_2022.77.jpg" },
-    { "src": "img/ctht9295_2022.78.jpg" }
+    { "src": "img/ctht9295_2022.78.jpg" },
+    { "src": "img/ctht9295_2022.79.jpg" },
+    { "src": "img/ctht9295_2022.80.jpg" },
+    { "src": "img/ctht9295_2022.81.jpg" },
+    { "src": "img/ctht9295_2022.82.jpg" },
+    { "src": "img/ctht9295_2022.83.jpg" },
+    { "src": "img/ctht9295_2022.84.jpg" },
+    { "src": "img/ctht9295_2022.85.jpg" },
+    { "src": "img/ctht9295_2022.86.jpg" }
        
     ]; //1536 2048
 
