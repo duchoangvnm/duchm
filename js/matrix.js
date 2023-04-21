@@ -45,7 +45,14 @@ const names = [
 	'NGUYỄN THỊ THẢO',
 	'ĐẶNG VĂN MẠC',
 	'NGUYỄN QUANG HUY',
-	'TRẦN QUỐC DŨNG'
+	'CHU VĂN DŨNG',
+	'NGÔ THÚY HÀ',
+	'PHẠM THỊ LAN',
+	'TRẦN THỊ BẰNG',
+	'CHU THỊ VÂN',
+	'ĐỖ THÔNG THƯ',
+	'LÊ THỊ THANH HƯƠNG',
+	'VƯƠNG DIỆU LINH'
 ];
 const colorHex=['#fe0000','	#fff202','	#01fff4','	#7cff00'];//['#ff0000','#ffac00','#fff100','#0bff00','#00f6ff'];
 for (let x = 0; x < names.length; x++) {

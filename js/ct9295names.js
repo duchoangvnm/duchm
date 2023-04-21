@@ -51,6 +51,7 @@ names=[
     'TRẦN THỊ BẰNG',
     'CHU THỊ VÂN',
     'ĐỖ THÔNG THƯ',
-    'LÊ THỊ THANH HƯƠNG'
+    'LÊ THỊ THANH HƯƠNG',
+    'VƯƠNG DIỆU LINH'
 
 ];

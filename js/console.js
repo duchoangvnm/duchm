@@ -6,14 +6,19 @@
     "Chí chóe lẫn nhau 😜",
     "Cũng được 30 năm rồi đấy! 😍"], 'text', ['#3f3']); */
 
-consoleText(["HƠN 50 MƯƠI CÁI ĐẦU 🙄",
-    "Ở TẬN ĐẨU TẬN ĐÂU 🧐",
+consoleText(["ĐÃ 30 NĂM RỒI ĐẤY ! 🙄",
+    "CHUYỆN KỂ TỪ MỘT HUYỆN NHỎ VEN SÔNG ĐÁY 🙄",
+    "RỒI QUÊ HƯƠNG CHIẾC GẬY TRƯỜNG SƠN,KHU CHÁY,TỨ GIẾNG,TRANG VÂN ĐÌNH ... 🙄",
+    "TỤ VỀ THÔN DƯƠNG KHÊ, NƠI ẤY KỶ NIỆM 🙄",
+    "LỚP 5 ĐÃ XA NHÀ,CẶP LỒNG CƠM THỨC ĂN MUỐI VỪNG,CHỨNG VỊT LỘT,THỊT TEM PHIẾU... 🧐",
     "CHẲNG ĐỨA NÀO RỦ NHAU 🙃",
-    "MÀ TÚM TỤM MỘT CHỖ ?! 🥳 😱 🥳 🥴",
-    "CHUYỆN BUÔN DÀI MUÔN THUỞ 👫 🧑‍🔬 🧑‍💻 👩‍🎨",
-    "CHÍ CHÓE CŨNG ĐÔI NGÀY 🍻 🍹 🍾",
+    "MÀ TÚM TỤM MỘT CHỖ ĂN UỐNG VÔ TƯ, NHANH NHANH CÒN NGHỊCH ! 🥳 😱 🥳 🥴",
+    "BẮN BI,BẮN BÒM,BA CÂY ĂN NỊT CHÙM XÒ LÀ QUANG TÍNH 👫 🧑‍🔬 🧑‍💻 👩‍🎨",
+    "BẮM BÒM THÌ CÓ DŨNG,HIỂU THẮNG CUỘC VỖ MÔNG ĐEN ĐÉT 🍻 🍹 🍾",
+    "LỚP TRƯỞNG HIỀN BÙI,HỌC HÀNH LUÔN GIỎI, CHƠI BỜI KÉM CỎI DẬY THÌ SỚM NHẤT...🍻 🍹 🍾",
+    "CÒN LẠI TOÀN BỌN TRẺ CON KHÔNG HIỂU SỰ ĐỜI 🌬 🌑 🌔 🌕 🌖",
     "THỜI GIAN NHƯ GIÓ BAY 🌬 🌑 🌔 🌕 🌖",
-    "BA MƯƠI NĂM RỒI ĐẤY! 😍 🎉 🎊 "
+    "BA MƯƠI NĂM TRÔI VÈO ! 😍 🎉 🎊 "
     ], 'text', ['#3f3']);
 
 function consoleText(words, id, colors) {
