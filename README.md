@@ -1,10 +1,5 @@
 # ctht9295
-This project is created for my friends from Chuyen Tin Ha Tay 1992-1995. 
-Tháng 9 năm 1992, 36 đứa học trò chân ướt chân ráo lò dò vào lớp Chuyên Tin của thầy Thái.
-
-[1]Sau này Đỗ Quang Minh chuyển vào nên thành 37 đứa.
-
-
+This project is created for my friends from Chuyen Toan Ung Hoa 1988-1992
 * Photos are from my friends. These photos shall be displayed on this github page only.
 * Music are from the Emancipator - Safe in the Steep Cliffs album: https://emancipator.bandcamp.com/album/safe-in-the-steep-cliffs
   My most favorite track is 07-Nevergreen.  
