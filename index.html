@@ -1,0 +1,66 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyen Van Toan Ung Hoa 1988-1992 - We have been knowing each other for 30 years!</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+    <link rel="stylesheet" href="css/matrix_glow.css">
+    <link rel="stylesheet" href="css/fade.css">
+    <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <canvas id="Matrix"></canvas>
+
+    <div class="row">
+        <div class="col-sm-12" style="text-align: center;">
+            <h1 class="animate-character" style="font-family:'VT323', sans-serif; font-size:60px;font-weight: bolder;">
+                CHUYÊN VĂN TOÁN ỨNG HÒA 88-92</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class='col-sm-12 console-container'>
+            <span id='text'></span>
+            <div class='console-underscore' id='console'>&#9613;</div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="fade-gallery" class="col-sm-12"></div>
+    </div>
+    <div class="row">
+        <button onclick="startEmancipator()" id="bttStartEmancipator" title="Start Emacipator - Safe in the Steep Cliffs" class="btn btn-primary btn-circle btn-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
+                <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+                <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+                <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+                <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+        </button>
+        <button onclick="startGallery()" id="bttStartGallery" title="Start Gallery" class="btn btn-primary btn-circle btn-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
+              </svg></button>
+        <button onclick="pauseGallery()" id="bttPauseGallery" class="btn btn-primary btn-circle btn-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pause-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M5 6.25a1.25 1.25 0 1 1 2.5 0v3.5a1.25 1.25 0 1 1-2.5 0v-3.5zm3.5 0a1.25 1.25 0 1 1 2.5 0v3.5a1.25 1.25 0 1 1-2.5 0v-3.5z"/>
+              </svg></button>
+
+    </div>
+    <div class="row" id="emancipatorAlbum">
+        <audio id="emancipator" autoplay="autoplay"></audio>
+    </div>
+    <script src="js/console.js"></script>
+    <script src="js/matrix_glow.js"></script>
+    <script src="js/fade.js"></script>
+</body>
+
+</html>
