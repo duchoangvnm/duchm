@@ -118,7 +118,12 @@ $(document).ready(function () {
     { "src": "img/ctht9295_2022.83.jpg" },
     { "src": "img/ctht9295_2022.84.jpg" },
     { "src": "img/ctht9295_2022.85.jpg" },
-    { "src": "img/ctht9295_2022.86.jpg" }
+    { "src": "img/ctht9295_2022.86.jpg" },
+    { "src": "img/ctht9295_2022.87.jpg" },
+    { "src": "img/ctht9295_2022.88.jpg" },
+    { "src": "img/ctht9295_2022.89.jpg" },
+    { "src": "img/ctht9295_2022.94.jpg" }
+
        
     ]; //1536 2048
 

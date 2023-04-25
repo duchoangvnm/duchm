@@ -104,4 +104,4 @@ const draw = () => {
 
 };
 
-setInterval(draw, 200);
+setInterval(draw, 250);
