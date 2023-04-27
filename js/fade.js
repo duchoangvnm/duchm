@@ -2,7 +2,7 @@ var images = [];
 var top = 1;
 var cur = - 1;
 var nextImage;
-var songlist = ['mp3/10-ntm.mp3'];
+var songlist = ['mp3/09-LangDu.mp3','mp3/10-ntm.mp3'];
 var emanx;
 var timegal;
 var isFirst = true;
