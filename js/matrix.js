@@ -53,7 +53,8 @@ const names = [
 	'CHU THỊ VÂN ',
 	'ĐỖ THÔNG THƯ ',
 	'LÊ THỊ THANH HƯƠNG ',
-	'VƯƠNG DIỆU LINH '
+	'VƯƠNG DIỆU LINH ',
+	'NGUYỄN THỊ NGỌC '
 ];
 const colorHex=['#fe0000','	#fff202','	#01fff4','	#7cff00'];//['#ff0000','#ffac00','#fff100','#0bff00','#00f6ff'];
 for (let x = 0; x < names.length; x++) {
