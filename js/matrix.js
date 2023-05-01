@@ -4,8 +4,10 @@ const names = [
 	'TƯỞNG THỊ THANH BÌNH ',
 	'BÙI DƯƠNG HIỀN ',
 	'MAI VĂN BẮC ',
-	'HOÀNG MINH  ĐỨC ',
-	'NGUYỄN VĂN TOÁN ',
+	'PHẠM THỊ HOÀN ',
+	'HOÀNG MINH ĐỨC ',
+	'HOÀNG MAI LAN',
+	'NGUYỄN TOÁN ',
 	'NGUYỄN THỊ VÂN HÀ ',
 	'CHU THỊ THÚY HẰNG ',
 	'NGHIÊM XUÂN HUY ',
@@ -29,16 +31,15 @@ const names = [
 	'DƯƠNG HỒNG QUANG ',
 	'NGUYỄN VIỆT HÙNG ',
 	'PHẠM VĂN HẢI ',
-	'ĐẠT ĐÁNG ',
+	'NGUYỄN KHẮC ĐẠT ',
 	'ĐÀO LÂM TÙNG ',
 	'TRẦN THÚY HÀ ',
 	'NGUYỄN THANH HƯƠNG ',
 	'LÊ MAI PHƯƠNG ',
 	'LÃ VĂN VẤN ',
 	'PHẠM THỊ HIỆP ',
-	'NGUYỄN MINH THÔNG ',
-	'PHẠM THỊ HOÀN ',
-	'NGUYỄN THỊ THÚY HOÀN ',
+	'NGUYỄN MINH THÔNG ',	
+	'LÊ THÚY HOÀN ',
 	'ĐẶNG VĂN TÍNH ',
 	'DẶNG THANH TUẤN ',
 	'PHẠM THỊ HOÀN ',
@@ -105,4 +106,4 @@ const draw = () => {
 
 };
 
-setInterval(draw, 250);
+setInterval(draw, 500);

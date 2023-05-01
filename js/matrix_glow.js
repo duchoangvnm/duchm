@@ -4,7 +4,9 @@ const names = [
     'TƯỞNG THỊ THANH BÌNH ',
     'BÙI DƯƠNG HIỀN ',
     'MAI VĂN BẮC ',
-    'HOÀNG MINH  ĐỨC ',
+    'PHẠM THỊ HOÀN ',
+    'HOÀNG MINH ĐỨC ',    
+    'HOÀNG MAI LAN',
     'NGUYỄN TOÁN ',
     'NGUYỄN THỊ VÂN HÀ ',
     'CHU THỊ THÚY HẰNG ',
@@ -36,8 +38,7 @@ const names = [
     'LÊ MAI PHƯƠNG ',
     'LÃ VĂN VẤN ',
     'PHẠM THỊ HIỆP ',
-    'NGUYỄN MINH THÔNG ',
-    'PHẠM THỊ HOÀN ',
+    'NGUYỄN MINH THÔNG ',   
     'LÊ THÚY HOÀN ',
     'ĐẶNG VĂN TÍNH ',
     'DẶNG THANH TUẤN ',
@@ -73,7 +74,7 @@ const context = canvas.getContext('2d');
 canvas.width = window.innerWidth;//Math.floor(window.innerHeight*7/4.5);
 canvas.height = window.innerHeight;
 
-const fontSize = 22;
+const fontSize = 20; //22
 const columns = Math.floor(canvas.width / fontSize);
 
 const rainDrops = [];
@@ -113,5 +114,5 @@ const draw = () => {
     }
 
 };
-setInterval(draw, 250);
+setInterval(draw, 500);
 

@@ -215,13 +215,13 @@ $(document).ready(function () {
 
     var gallery = document.getElementById('fade-gallery');
     gallery.style.width = window.innerWidth;
-    gallery.style.height = window.innerHeight * 0.8;
+    gallery.style.height = window.innerHeight * 0.6;
     gallery.style.textAlign = "center";
     for (var i = 0; i < slides.length; i++) {
         var img = document.createElement('img');
         img.src = slides[i]['src'];
         img.style.opacity = 0;
-        img.style.maxWidth = window.innerWidth * 0.8;
+        img.style.maxWidth = window.innerWidth * 0.6;
         img.style.maxHeight = window.innerHeight * 0.6;
         //img.style.border='solid 1px #9acd32';
         img.style.boxShadow = '5px 5px 5px #00336f';
