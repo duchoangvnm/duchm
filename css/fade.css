@@ -25,6 +25,19 @@
     right:30px;
     z-index:997;
 }
+#bttPrevImage {
+    position: fixed;
+    bottom: 20px;
+    right: 100px; /* Điều chỉnh khoảng cách giữa các nút */
+    z-index: 998;
+}
+
+#bttNextImage {
+    position: fixed;
+    bottom: 20px;
+    right: 170px; /* Điều chỉnh khoảng cách giữa các nút */
+    z-index: 998;
+}
 
 #emancipatorAlbum{
     position:fixed;
