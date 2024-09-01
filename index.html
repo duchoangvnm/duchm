@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chuyen Van Toan Ung Hoa 1987-1992 - We have been knowing each other for 30 years!</title>
+    <title>Chuyen Van Toan Ung Hoa 1987-1992 - We have been knowing each other for 32 years!</title>
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
@@ -13,6 +13,8 @@
     <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script><!-- Thêm TensorFlow.js -->
+
 
 </head>
 
@@ -53,7 +55,18 @@
                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                 <path d="M5 6.25a1.25 1.25 0 1 1 2.5 0v3.5a1.25 1.25 0 1 1-2.5 0v-3.5zm3.5 0a1.25 1.25 0 1 1 2.5 0v3.5a1.25 1.25 0 1 1-2.5 0v-3.5z"/>
               </svg></button>
-
+        <button onclick="prevImage()" id="bttPrevImage" title="Previous Image" class="btn btn-primary btn-circle btn-sm">           
+           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M10.5 8a.5.5 0 0 0 0-1h-5a.5.5 0 0 0 0 1h5z"/>  
+                <path d="M5.854 6.646a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708-.708l-2-2z"/>
+          </svg> </button>
+        <button onclick="nextImage()" id="bttNextImage" title="Next Image" class="btn btn-primary btn-circle btn-sm">
+           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M5.5 8a.5.5 0 0 0 0-1h5a.5.5 0 0 0 0 1h-5z"/>
+                <path d="M10.146 6.646a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708-.708l-2-2z"/>
+          </svg> </button>
     </div>
     <div class="row" id="emancipatorAlbum">
         <audio id="emancipator" autoplay="autoplay"></audio>
