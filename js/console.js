@@ -1,10 +1,4 @@
 // function([string1, string2],target id,[color1,color2]) 
-/*consoleText(["37 cái đầu 🙄",
-    "Ở tận đẩu đâu 🧐",
-    "Sao chẳng đứa nào rủ nhau 🙃",
-    "Mà túm tụm cùng một chỗ ?! 😱",
-    "Chí chóe lẫn nhau 😜",
-    "Cũng được 30 năm rồi đấy! 😍"], 'text', ['#3f3']); */
 
 consoleText(["LỚP 9 Thân yêu! 🙄",
     "Bao năm rồi chúng ta chẳng gặp nhau 🙄",
